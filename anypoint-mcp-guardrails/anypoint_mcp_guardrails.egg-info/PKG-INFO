@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: anypoint-mcp-guardrails
+Version: 0.1.0
+Summary: Read-only + scoped-write MCP server for Anypoint Platform (Integrations-NA)
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: requests>=2.32.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0.0; extra == "dev"
